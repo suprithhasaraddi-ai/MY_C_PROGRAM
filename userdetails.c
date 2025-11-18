@@ -1,5 +1,5 @@
 #include<stdio.h>
-int user_details(){
+int userdetails(){
    int age;
    char name,dept;
     printf("enter the name of the person\n");
@@ -11,5 +11,5 @@ int user_details(){
 }
 int main()
 {
-    person_details();
+    userdetails();
 }
