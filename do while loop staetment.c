@@ -2,8 +2,6 @@
 
 int main() {
     int i = 1;
-
-    // do-while loop
     do {
         printf("%d\n", i);
         i++;
