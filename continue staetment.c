@@ -6,7 +6,7 @@ int main() {
     for(i = 1; i <= 10; i++) {
         
         if(i == 5) {
-            continue;   // Skip number 5
+            continue; 
         }
 
         printf("%d\n", i);
