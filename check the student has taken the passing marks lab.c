@@ -8,13 +8,12 @@ int checkPass(int m1, int m2, int m3) {
 int main() {
     int s1, s2, s3;
     float avg;
-    printf("Enter marks of three subjects: ");
+    printf("Enter marks of three subjects: \n");
     scanf("%d %d %d", &s1, &s2, &s3);
     avg = (s1 + s2 + s3) / 3.0;
     printf("Average = %.2f\n", avg);
     if (checkPass(s1, s2, s3))
-        printf("Result: PASS\n");
+        printf(" PASS\n");
     else
-        printf("Result: FAIL\n");
-
-    ret
+        printf(" FAIL\n");
+}
